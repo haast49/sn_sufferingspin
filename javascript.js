@@ -459,7 +459,7 @@ var raidquests = [
 	'You are mad as a hatter and you are not going to take it anymore. Collect 8 pieces of headware and then extract.',
 	'Collect 4 of a single model of gun. Eg. 4 AK-74Us, 4 Makarovs, 4 AKMs, 4 MP-153s, etc.',
 	'Extract with 15 packets of cigarettes.',
-	'Equip a Trizip filled with grenades of your choice. Any time you reload or refill a mag you must throw a grenade. Fire in the hole!',
+	'Equip a Trizip filled with grenades of your choice. Any time you reload or refill a mag you must immediately throw a grenade. Fire in the hole!',
 ]
 
 var customquest = [
