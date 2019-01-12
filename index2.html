@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+  text-align: center;
+  background-color: #2b335c;
+  max-width: 85%;
+  background-image: url("https://cdn.discordapp.com/attachments/532891973133271040/532892167421689866/sn007_lrg.png"), url("https://cdn.discordapp.com/attachments/532891973133271040/532893422898511912/snpxl.png");
+  height: 600px;
+  background-position: center top, center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 900px, cover;
+  padding-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+#customqDisplay {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+background-color:#000;
+border:none;
+color:white;
+padding:15px 32px;
+text-align:center;
+text-decoration:none;
+display:inline-block;
+font-size:16px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover {
+background-color: #fff;
+color: #000;
+}
+
+.rollbut {
+background-color:#000;
+border:none;
+color:white;
+padding:15px 32px;
+text-align:center;
+text-decoration:none;
+display:inline-block;
+font-size:16px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.rollbut:hover {
+background-color: #fff;
+color: #000;
+}
+
+.topbox {
+border:  2px solid #fff;
+margin-top: 10px;
+padding-top:10px;
+margin-bottom: 10px;
+padding-bottom: 10px;
+width:50%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.borderbox {
+border: 2px solid #fff;
+padding-top:5px;
+padding-bottom:7px;
+width: 60%;
+margin-top:5px;
+margin-bottom: 5px;
+margin-left:auto;
+margin-right:auto;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.singlebox {
+border: 2px solid #fff;
+padding-top:5px;
+padding-bottom:7px;
+width: 60%;
+margin-top:5px;
+margin-bottom: 5px;
+margin-left:auto;
+margin-right:auto;
+}
+
+.columntwo {
+float: left;
+width: 50%;
+}
+
+.columnthree {
+float: left;
+width: 33%;
+}
+
+.row:after {
+content:"";
+display:table;
+clear:both;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  color: white;
+  text-align: center;
+}
+
+
+</style>
+	<title>Tarkoviser</title>
+<script src="Winwheel.js"></script>
+</head>
+<body>
+	<h2>Tarkov Randomiser(y) - Click New Challenge for Randomised Tarkov Challenge</h2>
+	<div id='spinner' style='margin-bottom:20px;'>
+	<table width="100%">
+        <tr>
+            <td><canvas id="colourCanvas" class="tutCanvas" width="400" height="400">Canvas not supported</canvas></td>
+            <td width="50%">
+                <button id='bigButton2' class='bigButton' onClick="colourWheel.startAnimation(); this.disabled=true;">Spin the Wheel</button>
+                &nbsp;&nbsp;&nbsp;<button id='rollbut' class='button' a href="javascript:void(0);" onClick="resetColourWheel(); bigButton2.disabled=false;">Reset Wheel</a>
+                <audio id="winsound">
+                   <source src="http://dougtesting.net/elements/sound/winbeat.mp3" />
+                </audio>
+            </td>
+        </tr>
+    </table>
+    <script>
+        
+
+
+
+    </script>
+    <br />
+
+ </div>
+
+	
+	<div class="singlebox">
+	<h4>Gun Type</h4>
+	<div id="guntypeDisplay">
+		<!-- gun will display here -->
+		</div>&nbsp;
+		<div id="newRoll">
+		<h4>Gun</h4>
+		<div id="gunDisplay">
+			<!-- gun model display here -->
+		</div>
+	&nbsp;
+	
+	<div class="row">
+	<div class="columnthree">
+	<div class="borderbox">
+	<h4>Magazine Type</h4>
+	<div id="magDisplay">
+		<!-- magazine type display here -->
+	</div>
+
+	</div>
+	</div>
+
+	<div class="columnthree">
+	<div class="borderbox">
+	<h4>Shotgun Ammo Type</h4>
+	<div id="shotType">
+		<!-- shotgun ammo type here -->
+	</div>
+	</div>
+	</div>
+
+	<div class="columnthree">
+	<div class="borderbox">
+	<h4>Optic</h4>
+	<div id="opticDisplay">
+		<!-- optics will display here -->
+	</div>
+	</div>
+	</div>
+	</div>
+	<div class="row">
+	<div class="columntwo">
+	<div class="borderbox">
+	<h4>Suppressed or Loud</h4>
+	<div id="suppressDisplay">
+		<!-- suppressed or not will display here -->
+	</div>
+	&nbsp;
+	</div>
+	</div>
+	<div class="columntwo">
+	<div class="borderbox">
+	<h4>Sidearm</h4>
+	<div id="sidearmDisplay">
+		<!-- sidearm display here -->
+	</div>
+	&nbsp;
+	</div>
+	</div>
+	</div>
+	<div class="row">
+	<div class="columntwo">
+	<div class="borderbox">
+	<h4>Raid</h4>
+	<div id="raidDisplay">
+		<!-- raid will display here -->
+	</div>
+	&nbsp;
+	</div>
+	</div>
+	<div class="columntwo">
+	<div class="borderbox">
+	<h4>Raid Challenge</h4>
+	<div id="raidqDisplay">
+		<!-- raid quest display here -->
+	</div>
+	&nbsp;
+	</div>
+	</div>
+	</div>
+	<div class="singlebox">
+	<h4>Custom Quest</h4>
+	<div id="customqDisplay">
+		<!-- custom quest display here-->
+	</div>
+	&nbsp;
+	</div>
+</div>
+</div>
+	
+	<div class="footer">
+	<p><strong>All credit to @JonesyMcDanes for creating such misery.</strong></p>
+	</div>
+	</div>
+	
+<script src="javascript.js"></script>
+<script src="Winwheel.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+
+</body>
+</html>
