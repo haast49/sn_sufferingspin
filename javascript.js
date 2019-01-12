@@ -468,7 +468,7 @@ var raidquests = [
 	'Danger Close - All Scav kills must be made from within 10 metres. Get 5 Scav kills.',
 	'Frostbite - Due to frostbite you are not able to repack your mags. Bring enough mags to secure 6 kills. If you find a zibbo lighter, you may repack one mag per zibbo lighter found.',
 	'Cocky Killer - You cannot ADS or use your secure container for the entire raid. Kill 3 players or 8 Scavs and extract.',
-	'Masochist - You are unable to heal any HP for the entirety of the raid. Splints and painkillers are allowed, but no HP gain items.',
+	'Masochist - You are unable to heal any HP for the entirety of the raid. Splints and painkillers are allowed, but no HP gain items. Get 4 kills.',
 	'Contamination - You have been contaminated! Load in with a full outfit (helmet, eyewear, helmet, vest, pack, 2x med items, 2x pain items, hydration item, armour and sidearm), get 4 kills and replace every piece of contaminated gear you loaded in with by the time you extract.',
 	'Fire In The Hole - Equip a Trizip filled with grenades of your choice. Any time you reload or refill a mag you must immediately throw a grenade.',
 ]
