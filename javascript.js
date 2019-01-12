@@ -716,6 +716,12 @@ let colourWheel = new Winwheel({
 		var randomOptic = Math.floor(Math.random() * (kedklinoptic.length));
 		document.getElementById('opticDisplay').innerHTML = kedklinoptic[randomOptic];
 	}
+	if (document.getElementById('gunDisplay').innerHTML === 'Kedr') {
+		document.getElementById('suppressDisplay').innerHTML = 'Loud';
+	}
+	else if (document.getElementById('gunDisplay').innerHTML === 'Klin') {
+		document.getElementById('suppressDisplay').innerHTML = 'Louod';
+	}
 
 	if (document.getElementById('raidDisplay').innerHTML ==='Custom Quest') {
 		document.getElementById('customqDisplay').style.display = 'block';
