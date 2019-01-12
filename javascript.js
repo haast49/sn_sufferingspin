@@ -492,6 +492,9 @@ let colourWheel = new Winwheel({
                {'fillStyle' : '#0039a6', 'text' : 'Shotguns'},
                {'fillStyle' : '#2b335c', 'text' : 'Sniper Rifles'},
             ],
+
+            
+
             'animation' :
             {
                 'type'     : 'spinToStop',
@@ -505,6 +508,7 @@ let colourWheel = new Winwheel({
                 // to re-draw the pointer each time.
                 'callbackAfter' : 'drawColourTriangle()'
             }
+
         });
 
         // This function called after the spin animation has stopped.
@@ -544,7 +548,7 @@ let colourWheel = new Winwheel({
 	var randomShot = Math.floor(Math.random() * (shotsammo.length));
 	document.getElementById('shotType').innerHTML = shotsammo[randomShot];
 	var randomOptic = Math.floor(Math.random() * (aroptic.length));
-	document.getElementById('opticDisplay').innerHTML = aroptic[randomOptic];
+	document.getElementById('opticDisplay').innerHTML = kedklinoptic[randomOptic];
 	var randomSuppress = Math.floor(Math.random() * (silence.length));
 	document.getElementById('suppressDisplay').innerHTML = silence[randomSuppress];
 	var randomSidearm = Math.floor(Math.random() * (sidearm.length));
@@ -661,16 +665,18 @@ let colourWheel = new Winwheel({
 			document.getElementById('magDisplay').innerHTML = monemags[randomMag];
 		}
 
-	if ((document.getElementById('gunDisplay').innerHTML === 'AKS-74U') || (document.getElementById('gunDisplay').innerHTML === 'PP-19') || (document.getElementById('gunDisplay').innerHTML === 'Saiga-9') || (document.getElementById('gunDisplay').innerHTML === 'MP5') || (document.getElementById('gunDisplay').innerHTML === 'MP7') || (document.getElementById('gunDisplay').innerHTML === 'MPX'))
-	{
-		var randomOptic = Math.floor(Math.random() * (smgoptic.length));
-		document.getElementById('opticDisplay').innerHTML = smgoptic[randomOptic];
-	}
 	else if ((document.getElementById('gunDisplay').innerHTML === 'Kedr') || (document.getElementById('gunDisplay').innerHTML === 'Klin'))
 	{
 		var randomOptic = Math.floor(Math.random() * (kedklinoptic.length));
 		document.getElementById('opticDisplay').innerHTML = kedklinoptic[randomOptic];
 	}
+
+	else if ((document.getElementById('gunDisplay').innerHTML === 'AKS-74U') || (document.getElementById('gunDisplay').innerHTML === 'PP-19') || (document.getElementById('gunDisplay').innerHTML === 'Saiga-9') || (document.getElementById('gunDisplay').innerHTML === 'MP5') || (document.getElementById('gunDisplay').innerHTML === 'MP7') || (document.getElementById('gunDisplay').innerHTML === 'MPX'))
+	{
+		var randomOptic = Math.floor(Math.random() * (smgoptic.length));
+		document.getElementById('opticDisplay').innerHTML = smgoptic[randomOptic];
+	}
+	
 
 	if ((document.getElementById('gunDisplay').innerHTML === 'MR-133') || (document.getElementById('gunDisplay').innerHTML === 'Saiga-12') || (document.getElementById('gunDisplay').innerHTML === 'MP-153') || (document.getElementById('gunDisplay').innerHTML === 'M870'))
 	{
@@ -694,15 +700,22 @@ let colourWheel = new Winwheel({
 	{
 		var randomOptic = Math.floor(Math.random() * (svoptic.length));
 		document.getElementById('opticDisplay').innerHTML = svoptic[randomOptic];
-		document.getElementById('magDisplay').innerHTML = defaultmags[randomMag];
 	}
 	else if ((document.getElementById('gunDisplay').innerHTML === 'Mosin') || (document.getElementById('gunDisplay').innerHTML === 'SKS'))
 	{
 		var randomOptic = Math.floor(Math.random() * (mosinskoptic.length));
 		document.getElementById('opticDisplay').innerHTML = mosinskoptic[randomOptic];
-		document.getElementById('magDisplay').innerHTML = defaultmags[randomMag];
 	}
 	
+	if (document.getElementById('gunDisplay').innerHTML === 'Kedr') {
+		var randomOptic = Math.floor(Math.random() * (kedklinoptic.length));
+		document.getElementById('opticDisplay').innerHTML = kedklinoptic[randomOptic];
+	}
+	else if (document.getElementById('gunDisplay').innerHTML === 'Klin') {
+		var randomOptic = Math.floor(Math.random() * (kedklinoptic.length));
+		document.getElementById('opticDisplay').innerHTML = kedklinoptic[randomOptic];
+	}
+
 	if (document.getElementById('raidDisplay').innerHTML ==='Custom Quest') {
 		document.getElementById('customqDisplay').style.display = 'block';
 		document.getElementById('raidqDisplay').style.display = 'none';
