@@ -25,7 +25,7 @@ var allguns = [
 	'Vepr-209',
 	'AKS-74U',
 	'PP-19',
-	'Saigs-9',
+	'Saiga-9',
 	'Kedr',
 	'Klin',
 	'MR-133',
@@ -99,7 +99,7 @@ var snipers = [
 var smgs = [
 	'AKS-74U',
 	'PP-19',
-	'Saigs-9',
+	'Saiga-9',
 	'Kedr',
 	'Klin',
 	'MP5',
@@ -455,6 +455,23 @@ var raidquests = [
 ]
 
 var customquest = [
+	'Interchange:   Water in Tarkov is less than clean, and your resulting tape worm is STARVING. Equip a Scav BP for Interchange and completely fill it with food. Run to your closed extract, consume ALL your collected food, then run to your open extract to burn those calories.',
+
+
+
+        'Factory:   You yearn for your days as a factory line worker. Fill a Trizip with as many disassembled weapons as possible, enter Factory and place create a line of weapon parts around the edge of Pit without dying.',
+
+
+
+        'Factory:   Tarkov nights can be dark and cold. Your mission is to fill a Trizip with Soap and/or Vaseline and enter Factory. You must find and befriend a Player, bring them to the showers, remove all clothing items and drop all Soap/Vaseline items in front of your new bunkmate. While your new love is examining your  gifts, MURDER THEM.',
+
+
+
+        'Woods:   If you go down to the woods tonight...Wearing a mask of your choice, enter a Woods night raid and successfully melee kill a Player.',
+
+
+
+
 	'Interchange:   Water in Tarkov is less than clean, and your resulting tape worm is STARVING. Equip a Scav BP for Interchange and completely fill it with food. Run to your closed extract, consume ALL your collected food, then run to your open extract to burn those calories.',
 	'Factory:   You yearn for your days as a factory line worker. Fill a Trizip with as many disassembled weapons as possible, enter Factory and place create a line of weapon parts around the edge of Pit without dying.',
 	'Factory:   Tarkov nights can be dark and cold. Your mission is to fill a Trizip with Soap and/or Vaseline and enter Factory. You must find and befriend a Player, bring them to the showers, remove all clothing items and drop all Soap/Vaseline items in front of your new bunkmate.',
