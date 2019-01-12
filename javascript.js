@@ -125,12 +125,12 @@ var eastarsmol = [
 ]
 
 var eastarsmolmags = [
-	'10 Round Polymer',
-	'30 Round Orange Bakelite',
+	'10 Round Polymer Mag',
+	'30 Round Orange Bakelite Mag',
 	'30 Round P-Mag',
-	'30 Round AK-12',
-	'45 Round Polymer',
-	'60 Round Polymer',
+	'30 Round AK-12 Mag',
+	'45 Round Polymer Mag',
+	'60 Round Polymer Mag',
 ]
 
 var aroptic = [
@@ -168,12 +168,12 @@ var eastarfat = [
 ]
 
 var eastarfatmags = [
-	'10 Round Steel',
-	'30 Round Steel',
-	'30 Round Palm',
+	'10 Round Steel Mag',
+	'30 Round Steel Mag',
+	'30 Round Palm Mag',
 	'30 Round P-Mag',
-	'40 Round Orange Bakelite',
-	'40 Round Steel',
+	'40 Round Orange Bakelite Mag',
+	'40 Round Steel Mag',
 ]
 
 var silence = [
@@ -190,12 +190,12 @@ var eastsmg = [
 ]
 
 var aksmags = [
-	'10 Round Polymer',
-	'30 Round Orange Bakelite',
+	'10 Round Polymer Mag',
+	'30 Round Orange Bakelite Mag',
 	'30 Round P-Mag',
-	'30 Round AK-12',
-	'45 Round Polymer',
-	'60 Round Polymer',
+	'30 Round AK-12 Mag',
+	'45 Round Polymer Mag',
+	'60 Round Polymer Mag',
 ]
 
 var ppsaigsmags = [
@@ -328,7 +328,7 @@ var westarmags = [
 	'10 Round P-Mag',
 	'20 Round P-Mag',
 	'30 Round STANAG',
-	'30 Round HK Steel',
+	'30 Round HK Steel Mag',
 	'30 Round P-Mag',
 	'40 Round P-Mag',
 ]
@@ -340,14 +340,14 @@ var westsmg = [
 ]
 
 var mpfmags = [
-	'30 Round Mags',
-	'50 Round Mags',
+	'30 Round Mag',
+	'50 Round Mag',
 ]
 
 var mpsmags = [
-	'20 Round Mags',
-	'30 Round Mags',
-	'40 Round Mags'
+	'20 Round Mag',
+	'30 Round Mag',
+	'40 Round Mag'
 ]
 
 var westshot = [
@@ -370,9 +370,9 @@ var westsr = [
 ]
 
 var monemags = [
-	'20 Round Mags',
-	'30 Round Mags',
-	'50 Round Mags',
+	'20 Round Mag',
+	'30 Round Mag',
+	'50 Round Mag',
 ]
 
 var magnification = [
@@ -430,10 +430,10 @@ var sidearm = [
 ]
 
 var glockmags = [
-	'17 Round Mags',
-	'21 Round Mags',
-	'33 Round Mags',
-	'50 Round Mags',
+	'17 Round Mag',
+	'21 Round Mag',
+	'33 Round Mag',
+	'50 Round Mag',
 ]
 
 var raid = [
@@ -455,18 +455,18 @@ var raidquests = [
 	'Extract with a bag of ammo. For Labs, Woods and Customs you must fill a 3x3 area with full stacks. For Shoreline and Interchange you must fill a 4x4 area with full stacks.',
 	'Extract with 6 new and different guns.',
 	'Extract with 4 meals. 1 meal = 1 food + 1 drink.',
+	'You are the trashman. Collect 16 slots of useless trash. Empty ammo boxes, screw nuts, med kits with below 50 durability, wood stocks, wood hanguards, crackers, crutons, cigarettes, etc. Valuable items such as statues, MREs, juice, coffee, gold chains, clocks, clothing, guns, etc. do not count as trash.',
+	'You are mad as a hatter and you are not going to take it anymore. Collect 8 pieces of headware and then extract.',
+	'Collect 4 of a single model of gun. Eg. 4 AK-74Us, 4 Makarovs, 4 AKMs, 4 MP-153s, etc.',
+	'FIRE IN THE HOLE! Equip a Trizip filled with grenades of your choice. You must throw all the grenades you bring in and any you find in raid.',
 ]
 
 var customquest = [
-	'Interchange:   Water in Tarkov is less than clean, and your resulting tape worm is STARVING. Equip a Scav BP for Interchange and completely fill it with food. Run to your closed extract, consume ALL your collected food, then run to your open extract to burn those calories.',
-        'Factory:   PITCH BLACK 3 - the studio was not able to afford Vin Diesel so it is up to you. In your second primary slot, equip a Short M870 with a minimum of 2 flashlights. NVGs are not allowed. Enter Night Factory, keep your M870 flashlights on at all times on your back and collect 15 Scav knives without being murdered by the night creatures.',
-        'Factory:   Tarkov nights can be dark and cold. Your mission is to fill a Trizip with Soap and/or Vaseline and enter Factory. You must find and befriend a Player, bring them to the showers, remove all clothing items and drop all Soap/Vaseline items in front of your new bunkmate. While your new love is examining your gifts, MURDER THEM with a melee weapon so they can never betray you.',
-        'Woods:   If you go down to the woods tonight...Wearing a mask of your choice, enter a Woods night raid and successfully melee kill 2 Players.',
+	'Interchange:   Water in Tarkov is less than clean, and your resulting tape worm is STARVING. Equip a Scav BP for Interchange and completely fill it with food. Run to your closed extract, consume ALL your collected food, then run to your open extract to burn those calories and tire out Tapey the tape worm.',
+    'Factory:   PITCH BLACK 3 - the studio was not able to afford Vin Diesel so it is up to you. In your second primary slot, equip a Short M870 with a minimum of 2 flashlights. NVGs are not allowed. Enter Night Factory, keep your M870 flashlights on at all times on your back and collect 15 Scav knives without being murdered by the night creatures.',
+    'Factory:   Tarkov nights can be dark and cold. Your mission is to fill a Trizip with Soap and/or Vaseline and enter Factory. You must find and befriend a Player, bring them to the showers, remove all clothing items and drop all Soap/Vaseline items in front of your new bunkmate. While your new love is examining your gifts, MURDER THEM with a melee weapon so they can never betray you.',
+    'Woods:   If you go down to the woods tonight...Wearing a mask of your choice, enter a Woods night raid and successfully melee kill 2 Players.',
 	'Customs:   BUILD THE WALL! You alone, orange man, can stem the tide of filthy Woods immigrants from getting through Customs. Your mission is to make it to the train bridge beside New Gas Station. From here to Railroad to Military Base extract is your border - you must defend this border from any trespassers for a minimum of 25 minutes, with at least 2 kills to make it seem to your voters like you were doing something. After 25 minutes, realise you actually do not care about poor people and extract through your waiting SUV to go play golf.',
-	'Interchange:   Water in Tarkov is less than clean, and your resulting tape worm is STARVING. Equip a Scav BP for Interchange and completely fill it with food. Run to your closed extract, consume ALL your collected food, then run to your open extract to burn those calories.',
-	'Factory:   You yearn for your days as a factory line worker. Fill a Trizip with as many disassembled weapons as possible, enter Factory and place create a line of weapon parts around the edge of Pit without dying.',
-	'Factory:   Tarkov nights can be dark and cold. Your mission is to fill a Trizip with Soap and/or Vaseline and enter Factory. You must find and befriend a Player, bring them to the showers, remove all clothing items and drop all Soap/Vaseline items in front of your new bunkmate.',
-	'Woods:   If you go down to the woods tonight...Wearing a mask of your choice, enter a Woods night raid and successfully melee kill a Player.',
 	'Shoreline:   Health is wealth! Despite your healthy Tarkov glow, you are feeling a bit worse for wear after a harsh winter. Go to the Health Resort on Shoreline and loot every ground floor room for meds. Consume any drugs and liquids you find (for the electrolytes). ',
 	'Woods:   It gets lonely in Tarkov. Your mission is to find a twink or BEAR to spend your glory days with. Find a life partner (hatchling, player scav, statue or Vaseline) and find 2 meals (1 food and 1 drink each). Bring them to the Scav House where you will have dinner together. You will then consummate your love to completet the quest (open to interpretation).',
 	'Shoreline:   Astronomy and anime is all you have left after Tarkov fell. Visit East 206 and West 303 to acquire the gyroscope and projector respectively. You will then visit the unlocked luxury house to get your body pillow, the locked luxury house to get the neighbours telescope and the general store in town to get some DVDs. Take everything back to the top of the observatory tower to enjoy and evening of hentai with senpai ending with a night watching the stars. Doing so completes the quest.',
@@ -488,10 +488,10 @@ let colourWheel = new Winwheel({
             'pointerAngle'   : 90,
             'segments'       :
             [
-               {'fillStyle' : '#eae56f', 'text' : 'Assault Rifles'},
-               {'fillStyle' : '#89f26e', 'text' : 'SMGs'},
-               {'fillStyle' : '#7de6ef', 'text' : 'Shotguns'},
-               {'fillStyle' : '#e7706f', 'text' : 'Sniper Rifles'},
+               {'fillStyle' : '#e8895f', 'text' : 'Assault Rifles'},
+               {'fillStyle' : '#d52b1e', 'text' : 'SMGs'},
+               {'fillStyle' : '#0039a6', 'text' : 'Shotguns'},
+               {'fillStyle' : '#2b335c', 'text' : 'Sniper Rifles'},
             ],
             'animation' :
             {
@@ -724,8 +724,8 @@ let colourWheel = new Winwheel({
             // Get context used by the wheel.
             let ctx2 = colourWheel.ctx;
 
-            ctx2.strokeStyle = 'navy';  // Set line colour.
-            ctx2.fillStyle   = 'aqua';  // Set fill colour.
+            ctx2.strokeStyle = 'black';  // Set line colour.
+            ctx2.fillStyle   = '#ffffff';  // Set fill colour.
             ctx2.lineWidth   = 2;
             ctx2.beginPath();           // Begin path.
 
@@ -745,10 +745,10 @@ let colourWheel = new Winwheel({
             colourWheel.rotationAngle=0;
 
             // We need to reset all segment colours.
-            colourWheel.segments[1].fillStyle = '#eae56f';
-            colourWheel.segments[2].fillStyle = '#89f26e';
-            colourWheel.segments[3].fillStyle = '#7de6ef';
-            colourWheel.segments[4].fillStyle = '#e7706f';
+            colourWheel.segments[1].fillStyle = '#e8895f';
+            colourWheel.segments[2].fillStyle = '#d52b1e';
+            colourWheel.segments[3].fillStyle = '#0039a6';
+            colourWheel.segments[4].fillStyle = '#2b335c';
             // Call draw to render changes and then triangle function so pointer appears.
             colourWheel.draw();
             drawColourTriangle();
