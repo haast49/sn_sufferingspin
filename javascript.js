@@ -125,12 +125,12 @@ var eastarsmol = [
 ]
 
 var eastarsmolmags = [
-	'10 - Polymer',
-	'30 - Orange Bakelite',
-	'30 - P-Mag',
-	'30 - AK-12',
-	'45 - Polymer',
-	'60 - Polymer',
+	'10 Round Polymer',
+	'30 Round Orange Bakelite',
+	'30 Round P-Mag',
+	'30 Round AK-12',
+	'45 Round Polymer',
+	'60 Round Polymer',
 ]
 
 var aroptic = [
@@ -141,7 +141,7 @@ var aroptic = [
 	'Romeo',
 	'T-1',
 	'Holosun',
-	'Burriss FastFire',
+	'Burris FastFire',
 	'Valday Holo',
 	'Eotech Holo',
 	'Eotech HHS-1',
@@ -168,12 +168,12 @@ var eastarfat = [
 ]
 
 var eastarfatmags = [
-	'10 - Steel',
-	'30 - Steel',
-	'30 - Palm',
-	'30 - P-Mag',
-	'40 - Orange Bakelite',
-	'40 - Steel',
+	'10 Round Steel',
+	'30 Round Steel',
+	'30 Round Palm',
+	'30 Round P-Mag',
+	'40 Round Orange Bakelite',
+	'40 Round Steel',
 ]
 
 var silence = [
@@ -190,29 +190,29 @@ var eastsmg = [
 ]
 
 var aksmags = [
-	'10 - Polymer',
-	'30 - Orange Bakelite',
-	'30 - P-Mag',
-	'30 - AK-12',
-	'45 - Polymer',
-	'60 - Polymer',
+	'10 Round Polymer',
+	'30 Round Orange Bakelite',
+	'30 Round P-Mag',
+	'30 Round AK-12',
+	'45 Round Polymer',
+	'60 Round Polymer',
 ]
 
 var ppsaigsmags = [
-	'10 Rounder Mags',
-	'20 Rounder Mags',
-	'30 Rounder Yellow Mags',
-	'30 Rounder Black Mags',
+	'10 Round Mags',
+	'20 Round Mags',
+	'30 Round Yellow Mags',
+	'30 Round Black Mags',
 ]
 
 var kedklinmags = [
-	'20 Rounder Mags',
-	'30 Rounder Mags',
+	'20 Round Mags',
+	'30 Round Mags',
 ]
 
 var kedklinoptic = [
 	'PK-06',
-	'Irons',
+	'Ironsights',
 ]
 
 var smgoptic = [
@@ -223,7 +223,7 @@ var smgoptic = [
 	'Romeo',
 	'T-1',
 	'Holosun',
-	'Burriss FastFire',
+	'Burris FastFire',
 	'Valday Holo',
 	'Eotech Holo',
 	'Eotech HHS-1',
@@ -266,7 +266,7 @@ var slugoptic = [
 	'Romeo',
 	'T-1',
 	'Holosun',
-	'Burriss FastFire',
+	'Burris FastFire',
 	'Valday Holo',
 	'Eotech Holo',
 	'Eotech HHS-1',
@@ -286,7 +286,7 @@ var buckshotoptic = [
 	'Romeo',
 	'T-1',
 	'Holosun',
-	'Burriss FastFire',
+	'Burris FastFire',
 	'Valday Holo',
 	'Eotech Holo',
 	'Eotech HHS-1',
@@ -325,12 +325,12 @@ var westar = [
 ]
 
 var westarmags = [
-	'10 P-Mag',
-	'20 P-Mag',
-	'30 STANAG',
-	'30 HK Steel',
-	'30 P-Mag',
-	'40 P-Mag',
+	'10 Round P-Mag',
+	'20 Round P-Mag',
+	'30 Round STANAG',
+	'30 Round HK Steel',
+	'30 Round P-Mag',
+	'40 Round P-Mag',
 ]
 
 var westsmg = [
@@ -385,7 +385,7 @@ var magnification = [
 ]
 
 var onexoptics = [
-	'Iron',
+	'Ironsights',
 	'Red Dot',
 	'Red Dot',
 	'Holo Sights',
@@ -438,10 +438,13 @@ var glockmags = [
 
 var raid = [
 	'Woods',
+	'Factory',
 	'Customs',
 	'Shoreline',
 	'Interchange',
 	'Labs',
+	'Custom Quest',
+	'Custom Quest',
 	'Custom Quest',
 ]
 
@@ -456,22 +459,10 @@ var raidquests = [
 
 var customquest = [
 	'Interchange:   Water in Tarkov is less than clean, and your resulting tape worm is STARVING. Equip a Scav BP for Interchange and completely fill it with food. Run to your closed extract, consume ALL your collected food, then run to your open extract to burn those calories.',
-
-
-
-        'Factory:   You yearn for your days as a factory line worker. Fill a Trizip with as many disassembled weapons as possible, enter Factory and place create a line of weapon parts around the edge of Pit without dying.',
-
-
-
-        'Factory:   Tarkov nights can be dark and cold. Your mission is to fill a Trizip with Soap and/or Vaseline and enter Factory. You must find and befriend a Player, bring them to the showers, remove all clothing items and drop all Soap/Vaseline items in front of your new bunkmate. While your new love is examining your  gifts, MURDER THEM.',
-
-
-
-        'Woods:   If you go down to the woods tonight...Wearing a mask of your choice, enter a Woods night raid and successfully melee kill a Player.',
-
-
-
-
+        'Factory:   PITCH BLACK 3 - the studio was not able to afford Vin Diesel so it is up to you. In your second primary slot, equip a Short M870 with a minimum of 2 flashlights. NVGs are not allowed. Enter Night Factory, keep your M870 flashlights on at all times on your back and collect 15 Scav knives without being murdered by the night creatures.',
+        'Factory:   Tarkov nights can be dark and cold. Your mission is to fill a Trizip with Soap and/or Vaseline and enter Factory. You must find and befriend a Player, bring them to the showers, remove all clothing items and drop all Soap/Vaseline items in front of your new bunkmate. While your new love is examining your gifts, MURDER THEM with a melee weapon so they can never betray you.',
+        'Woods:   If you go down to the woods tonight...Wearing a mask of your choice, enter a Woods night raid and successfully melee kill 2 Players.',
+	'Customs:   BUILD THE WALL! You alone, orange man, can stem the tide of filthy Woods immigrants from getting through Customs. Your mission is to make it to the train bridge beside New Gas Station. From here to Railroad to Military Base extract is your border - you must defend this border from any trespassers for a minimum of 25 minutes, with at least 2 kills to make it seem to your voters like you were doing something. After 25 minutes, realise you actually do not care about poor people and extract through your waiting SUV to go play golf.',
 	'Interchange:   Water in Tarkov is less than clean, and your resulting tape worm is STARVING. Equip a Scav BP for Interchange and completely fill it with food. Run to your closed extract, consume ALL your collected food, then run to your open extract to burn those calories.',
 	'Factory:   You yearn for your days as a factory line worker. Fill a Trizip with as many disassembled weapons as possible, enter Factory and place create a line of weapon parts around the edge of Pit without dying.',
 	'Factory:   Tarkov nights can be dark and cold. Your mission is to fill a Trizip with Soap and/or Vaseline and enter Factory. You must find and befriend a Player, bring them to the showers, remove all clothing items and drop all Soap/Vaseline items in front of your new bunkmate.',
