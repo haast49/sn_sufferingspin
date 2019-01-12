@@ -458,7 +458,7 @@ var raidquests = [
 	'You are the trashman. Collect 16 slots of useless trash. Empty ammo boxes, screw nuts, med kits with below 50 durability, wood stocks, wood hanguards, crackers, crutons, cigarettes, etc. Valuable items such as statues, MREs, juice, coffee, gold chains, clocks, clothing, guns, etc. do not count as trash.',
 	'You are mad as a hatter and you are not going to take it anymore. Collect 8 pieces of headware and then extract.',
 	'Collect 4 of a single model of gun. Eg. 4 AK-74Us, 4 Makarovs, 4 AKMs, 4 MP-153s, etc.',
-	'FIRE IN THE HOLE! Equip a Trizip filled with grenades of your choice. You must throw all the grenades you bring in and any you find in raid.',
+	'Equip a Trizip filled with grenades of your choice. You must throw all the grenades you bring in and any you find in raid. Fire in the hole!',
 ]
 
 var customquest = [
