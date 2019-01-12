@@ -451,7 +451,7 @@ var raid = [
 
 var raidquests = [
 	'Deadeye - Kill 3 players (including player Scavs) or kill 1 player more than 200m away.',
-	'Judge and Executioner - Adopt a player and have him/her extract or kill a player using a grenade.',
+	'Judge/Executioner - Adopt a player and have him/her extract or kill a player using a grenade.',
 	'New Wardrobe - Extract with 4 sets of clothing. 1 clothing set = 1 hat + 1 face + 1 eyeware. Clothing such as a gas mask counts as 1 set.',
 	'Prepper - Extract with a bag of ammo. For Labs, Woods and Customs you must fill a 3x3 area with full stacks. For Shoreline and Interchange you must fill a 4x4 area with full stacks.',
 	'Gun Hoarder - Extract with 6 new and unique guns.',
@@ -461,16 +461,16 @@ var raidquests = [
 	'Collect 4 of a single model of gun. Eg. 4 AK-74Us, 4 Makarovs, 4 AKMs, 4 MP-153s, etc.',
 	'When Is Daddy Coming Home? - Extract with 15 packets of cigarettes.',
 	'Idle Hands - Get 10 kills, player or Scav. For each kill, you must pickup and use your victims weapon until the next kill.',
-	'Friendly Fuck You - Find and greet a player with the "cooperate" voice line 5 times to cement your friendship. Then immediately walk away from them. You can no longer use any voice lines for the remainder of the raid and you must now shoot any player you look at on sight.',
+	'Friendly Fuck You - Find and greet a player with the "cooperate" voice line 5 times to cement your friendship. Then immediately walk away from them. You can no longer use any voice lines for the remainder of the raid and you must now shoot any player you look at on sight. Get 1 player kill.',
 	'Technophile - Electronics, gadgets, gizmos - fill a 4x4 space full of any electronic or technology items.',
 	'No Two The Same - Purchase and equip an Attack-2 or equivalent pack and fill it completely in raid. To extract, you cannot have more than one of any individual unique item in your backpack. (No 2 IFAKs, no 2 grenades, no 2 waters, etc.)',
 	'Adrenaline Junkie - Load in with your pockets full of Adrenaline. Anytime you see or hear a player, hit an Adrenaline. While Adrenaline is active, you must keep sprinting. Get 2 player kills.',
 	'Danger Close - All Scav kills must be made from within 10 metres. Get 5 Scav kills.',
 	'Frostbite - Due to frostbite you are not able to repack your mags. Bring enough mags to secure 6 kills. If you find a zibbo lighter, you may repack one mag per zibbo lighter found.',
 	'Cocky Killer - You cannot ADS or use your secure container for the entire raid. Kill 3 players or 8 Scavs and extract.',
-	'Masochist - You are unable to heal any HP for the entirety of the raid. Splints and painkillers are allowed, but no HP gain items. Get 4 kills.',
+	'Masochist - You are unable to heal any HP for the entirety of the raid. Splints and painkillers are allowed, but no HP gain items. Get 3 kills.',
 	'Contamination - You have been contaminated! Load in with a full outfit (helmet, eyewear, helmet, vest, pack, 2x med items, 2x pain items, hydration item, armour and sidearm), get 4 kills and replace every piece of contaminated gear you loaded in with by the time you extract.',
-	'Fire In The Hole - Equip a Trizip filled with grenades of your choice. Any time you reload or refill a mag you must immediately throw a grenade.',
+	'Fire In The Hole - Equip a Trizip filled with grenades of your choice. Any time you reload or refill a mag you must immediately throw a grenade. Get 5 kills.',
 ]
 
 var customquest = [
