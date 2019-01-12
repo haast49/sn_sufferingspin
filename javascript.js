@@ -446,6 +446,7 @@ var raid = [
 	'Custom Quest',
 	'Custom Quest',
 	'Custom Quest',
+	'Custom Quest',
 ]
 
 var raidquests = [
